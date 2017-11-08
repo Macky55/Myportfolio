@@ -1,0 +1,143 @@
+body
+{
+background: #999;
+margin: 0;
+padding: 0;
+background-size: cover;
+}
+
+.home
+{
+text-align: center;
+font-size: 30px;
+padding: 2px;
+}
+
+.list
+{
+width: 100%;
+height: 87px;
+line-height: 87px;
+background: rgb(109, 95, 92);
+}
+
+.list ul
+{
+float: center; 
+margin: 0px;
+text-align: center;	
+margin-right: 30px;
+}
+
+.list ul li
+{
+display: inline;
+list-style-type: none;	
+font-size: 25px;
+padding: 30px; 
+}
+
+a
+{
+text-decoration: none;
+color: #fff;
+}
+
+.list ul li:hover
+{
+background: #443431;
+transition: all ease-in-out;
+}
+
+.active
+{
+background: #443431;
+}
+
+.pics img
+{
+width: 260px;
+height: 250px;
+margin-top: 50px;
+margin-left: 42px;
+border-radius: 30px;
+-webkit-filter: brightness(60%);
+}
+
+.pics img:hover
+{
+-webkit-filter: brightness(100%);	
+}
+
+/* Hobbies Layout*/
+
+.hobbies img
+{
+width: 260px;
+height: 250px;
+margin-top: 50px;
+margin-left: 42px;
+border-radius: 30px;
+-webkit-filter: brightness(60%);
+}
+
+.hobbies img:hover
+{
+-webkit-filter: brightness(100%);	
+}
+
+/* Profile Layout*/
+
+.about h2
+{
+text-align: center;
+font-size: 45px;
+color: #57788F;	
+}
+
+.algebra ul
+{
+color: #000;
+text-align: center;
+list-style-type: none;
+}
+
+.algebra ul li 
+{
+text-decoration: none;
+font-size: 30px;
+}
+
+.names h1
+{
+margin-left: 100px;
+display: inline;
+color: #443431;
+}
+
+.names h2
+{
+margin-left: 100px;
+display: inline;
+font-size: 33px;
+margin-left: 190px;
+color: #443431;
+}
+
+.names h3
+{
+margin-left: 100px;
+display: inline;
+font-size: 33px;
+margin-left: 200px;
+color: #443431;
+}
+
+.names h4
+{
+margin-left: 100px;
+display: inline;
+font-size: 33px;
+margin-left: 220px;
+color: #443431;
+}
